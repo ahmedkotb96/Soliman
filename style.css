@@ -169,7 +169,9 @@ nav {
 
 .hero-content {
     flex: 1;
-    padding-right: 2rem;
+    padding: 0 2rem 0 100px;  /* Added specific left padding */
+    margin: 0;
+    position: static;  /* Remove relative positioning */
 }
 
 .hero-content h1 {
