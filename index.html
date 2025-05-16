@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Suleman - AI Engineer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#home" class="logo-link">
+                <div class="logo">MS</div>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm <span class="highlight">Muhammad Suleman</span></h1>
+            <h2>AI Engineer & Researcher</h2>
+            <p>Specializing in machine learning, deep learning, and computer vision solutions</p>
+            <div class="social-icons">
+                <a href="https://github.com/Suleman96" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/suleman96/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <a href="#projects" class="btn">View My Projects</a>
+        </div>
+        <div class="hero-image">
+            <img src="suleman.png" alt="Muhammad Suleman" class="profile-img" style="mix-blend-mode: multiply; background: transparent;">
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <h3>AI Engineer & Researcher</h3>
+                <p>I'm a passionate AI professional with hands-on experience in machine learning, deep learning, and computer vision projects. I specialize in developing, testing and optimizing models, with practical expertise in Python and cloud deployment on AWS.</p>
+                <p>Currently pursuing my M.Sc. in Artificial Intelligence for Smart Sensors & Actuators at Technische Hochschule Deggendorf with a grade of 1.7.</p>
+                <div class="skills">
+                    <h3>Technical Skills</h3>
+                    <ul>
+                        <li>Machine Learning</li>
+                        <li>Deep Learning</li>
+                        <li>Computer Vision</li>
+                        <li>Python</li>
+                        <li>PyTorch</li>
+                        <li>AWS Cloud</li>
+                        <li>Docker</li>
+                        <li>OpenCV</li>
+                        <li>Transformers</li>
+                        <li>SQL</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="experience">
+        <h2 class="section-title">Professional Experience</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-date">Jan 2025 - Present</div>
+                <div class="timeline-content">
+                    <h3>Artificial Intelligence Intern</h3>
+                    <h4>Diplotech Solutions, Berlin, Germany</h4>
+                    <ul>
+                        <li>Developed intelligent chatbot leveraging Google DialogFlow ES to automate client interactions</li>
+                        <li>Designed customized chatbot interface using Node.js, CSS, and integrated RESTful APIs</li>
+                        <li>Deployed chatbot to company website using AWS web hosting</li>
+                        <li>Built semantic book recommendation system using transformer-based text embeddings</li>
+                    </ul>
+                    <div class="tools">
+                        <span>Google Dialogflow</span>
+                        <span>Node.js</span>
+                        <span>AWS EC2</span>
+                        <span>LLM</span>
+                        <span>RESTful API</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="timeline-item">
+                <div class="timeline-date">2022 - 2025</div>
+                <div class="timeline-content">
+                    <h3>Master Thesis Student</h3>
+                    <h4>Technische Hochschule Deggendorf, Germany</h4>
+                    <p><strong>Thesis:</strong> Dynamic Environment Perception for Autonomous System: Real-Time Approach to Obstacle Detection (Grade 1.3)</p>
+                    <ul>
+                        <li>Conducted meta-analysis of segmentation and relative depth estimation models</li>
+                        <li>Developed obstacle detection system for autonomous lawn mower on NVIDIA Jetson Nano</li>
+                        <li>Optimized inference speed: reduced latency by 52% (1.25x detection speed)</li>
+                    </ul>
+                    <div class="tools">
+                        <span>PyTorch</span>
+                        <span>Transformers</span>
+                        <span>TensorRT</span>
+                        <span>Segmentation</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="timeline-item">
+                <div class="timeline-date">2022 - 2024</div>
+                <div class="timeline-content">
+                    <h3>Student Research Assistant</h3>
+                    <h4>Technische Hochschule Deggendorf, Germany</h4>
+                    <ul>
+                        <li>Developed real-time obstacle detection algorithms using monocular vision</li>
+                        <li>Performed camera calibration and real-time visual mapping using OpenCV</li>
+                        <li>Implemented machine learning techniques including ORB, SIFT, and YOLOv8</li>
+                    </ul>
+                    <div class="tools">
+                        <span>YOLOv8</span>
+                        <span>OpenCV</span>
+                        <span>PyTorch</span>
+                        <span>ORB</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-icon">
+                    <!-- Wave animation for flood prediction -->
+                    <svg viewBox="0 0 100 100" class="wave-icon">
+                        <path class="wave" d="M0,50 C20,40 30,60 50,50 C70,40 80,60 100,50" fill="none" stroke="currentColor"/>
+                        <path class="wave" d="M0,50 C20,40 30,60 50,50 C70,40 80,60 100,50" fill="none" stroke="currentColor" transform="translate(0,10)"/>
+                        <path class="wave" d="M0,50 C20,40 30,60 50,50 C70,40 80,60 100,50" fill="none" stroke="currentColor" transform="translate(0,20)"/>
+                    </svg>
+                </div>
+                <h3>Water Level/Flood Prediction of Passau</h3>
+                <p>Predictive analytics using ARIMA and MLP regression models on historical water level data</p>
+                <div class="project-links">
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">ARIMA</span>
+                    <span class="tech-tag">MLP</span>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <div class="project-icon">
+                    <!-- Dumbbell icon -->
+                    <svg viewBox="0 0 100 100" class="fitness-icon">
+                    <rect x="5" y="40" width="20" height="20" rx="5"/>
+                    <rect x="75" y="40" width="20" height="20" rx="5"/>
+                    <rect x="25" y="45" width="50" height="10" rx="5"/>
+                    </svg>
+                </div>
+                <h3>Personalized Fitness Recommender App</h3>
+                <p>Kivy-based mobile app using LSTM to analyze user movements with PostgreSQL backend</p>
+                <div class="project-links">
+                    <span class="tech-tag">Kivy</span>
+                    <span class="tech-tag">LSTM</span>
+                    <span class="tech-tag">PostgreSQL</span>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <div class="project-icon">
+                    <!-- Parking spot with car animation -->
+                    <svg viewBox="0 0 100 100" class="parking-icon">
+                        <rect x="10" y="20" width="80" height="60" fill="none" stroke="currentColor"/>
+                        <path class="car" d="M30,50 h40 m-35,-10 l30,0 l5,10 l-40,0 z" fill="currentColor"/>
+                        <line x1="35" y1="50" x2="40" y2="50" stroke="currentColor"/>
+                        <line x1="60" y1="50" x2="65" y2="50" stroke="currentColor"/>
+                    </svg>
+                </div>
+                <h3>Detection & Prediction of Car Parking</h3>
+                <p>Trained model to predict parking spot availability using Mask RCNN</p>
+                <div class="project-links">
+                    <span class="tech-tag">Mask RCNN</span>
+                    <span class="tech-tag">Python</span>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <div class="project-icon">
+                    <!-- Privacy shield with blur effect -->
+                    <svg viewBox="0 0 100 100" class="gdpr-icon">
+                        <path d="M50,10 L90,30 L90,70 L50,90 L10,70 L10,30 Z" fill="none" stroke="currentColor"/>
+                        <circle class="blur-effect" cx="50" cy="50" r="20"/>
+                        <path class="check" d="M35,50 L45,60 L65,40" fill="none" stroke="currentColor" stroke-width="3"/>
+                    </svg>
+                </div>
+                <h3>GDPR Compliance for Public Images/Video</h3>
+                <p>Object detection and tracking model using MobileNet and YOLOv7 for privacy blurring</p>
+                <div class="project-links">
+                    <span class="tech-tag">YOLOv7</span>
+                    <span class="tech-tag">Roboflow</span>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <div class="project-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M12 2a10 10 0 0 0-10 10h3a7 7 0 0 1 14 0h3a10 10 0 0 0-10-10z"/>
+                        <path d="M2 12h20"/>
+                    </svg>
+                </div>
+                <h3>Autonomous Parking using LiDAR</h3>
+                <p>Environmental mapping and route optimization via A* pathfinding in ROS</p>
+                <div class="project-links">
+                    <span class="tech-tag">LiDAR</span>
+                    <span class="tech-tag">ROS</span>
+                    <span class="tech-tag">A*</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="contact-content">
+            <div class="contact-info text-center">
+                <h3>Contact Information</h3>
+                <div class="contact-details">
+                    <p><i class="fas fa-envelope"></i> m.suleman.me96@gmail.com</p>
+                    <p><i class="fas fa-phone"></i> +49 163 5024790</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Fürth, Germany</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Muhammad Suleman. All rights reserved.</p>
+            <div class="social-icons">
+                <a href="https://github.com/Suleman96" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/suleman96/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
